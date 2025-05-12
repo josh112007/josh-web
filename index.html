@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="web">
+    <h1>QUIZ NI JOSH</h1>
+  </div>
+  <div class="quiz-container">
+    <img src="b58c160affa376c1324899accdd56fba.jpg" alt="Basta picture to" class="quiz-image">
+    <h1 id="question">Loading...</h1>
+    <div id="answers"></div>
+    <button onclick="nextQuestion()" id="nextButton">Next</button>
+    <p id="correct"></p>
+    <p id="q1" class="qstns"></p>
+    <p id="q2" class="qstns"></p>
+    <p id="q3" class="qstns"></p>
+    <p id="q4" class="qstns"></p>
+    <p id="q5" class="qstns"></p>
+    <p id="score"></p>
+  </div>
+  <form>
+    <label for="name" class="bottom">name</label>
+    <input id="name" type="text" placeholder="pangalan mo idol?" required><br><br>
+  </form>
+  <form>
+    <label for="input" class="bottom" required>Tuli ka na ba??</label>
+    <label class="bottom">
+    <input type="radio" name="choice" value="oo" required>oo
+    </label>
+    <label class="bottom" required>
+    <input type="radio" name="choice" value="dipa" required>dipa
+    </label>
+  </form>
+  <button onclick="alert('uyy, ikaw pala yannn')">submit</button><br><br>
+  
+  <div id="contact">
+    <h3 id="ctext">Contacts:</h3>
+    <a href="https://www.facebook.com/Therealdealjosh" target="_blank">My FB account</a>
+    <a href="https://www.instagram.com/snpr.j?igsh=NHUwdnZ6MW4ybGM0" target="_blank">My IG account</a>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
